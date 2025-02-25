@@ -13,19 +13,26 @@
 }
 
 main {
-  margin: auto;
+  margin: 70px auto;
   width: 1120px;
+  
 }
 
+main > img {
+  width: 1120px;
+  height: 729px;
+}
 
 h1 {
   margin-bottom: 40px;
 }
 
+h2 {
+  margin-bottom: 10px;
+}
 
-img {
-  width: 1120px;
-  height: 729px;
+h3 {
+  margin: 5px 0;
 }
 
 p.description {
@@ -42,4 +49,35 @@ p.description {
 #introduction-cities {
   margin: 64px 0px;
 
+}
+
+.description-cities {
+  margin-bottom: 48px;
+}
+
+li {
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.blue {
+  color: #0C51A7;
+}
+
+li[type= "1"] {
+  margin-left: 25px;
+}
+
+#description {
+  margin-top: 88px;
+  text-align: center;
+}
+
+footer {
+  margin: 40px 0;
+  text-align: center;
+}
+
+footer img {
+  vertical-align: middle;
 }
